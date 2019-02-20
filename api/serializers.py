@@ -19,4 +19,4 @@ class ClassroomDetailSerializer(serializers.ModelSerializer):
 class ClassroomCreateUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Classroom
-        fields =' __all__'
+        fields ='__all__'
